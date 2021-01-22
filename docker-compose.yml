@@ -1,0 +1,6 @@
+version: '3'
+services:
+   school-ui:
+        image: developer.okta.com/microservice-docker-demo:0.0.1-SNAPSHOT
+        ports:
+          - 8080:8080
